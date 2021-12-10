@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  
+  *{
+    box-sizing: border-box;
+  }
+
   body{
+  background-color: rgb(190, 190, 190);
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
   color: #333;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 h1 {
   font-size: 4rem;
@@ -25,6 +34,7 @@ h2 {
 
 h2 {
   font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 
 a {
@@ -45,10 +55,10 @@ a {
 }
 
 img {
+  background-color: rgb(190, 190, 190);
   max-width: 100%;
-  display: block;
   height: auto;
-  margin: 0 auto;
+  margin:  auto;
 }
 
 #img-div {
